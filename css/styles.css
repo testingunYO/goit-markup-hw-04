@@ -315,6 +315,7 @@ footer {
   font-family: var(--secondary-font-family-family);
   background-color: #2e2f42;
   padding: 100px 0;
+  /* display: flex; */
 }
 /* .footer-container {
   width: 264px;

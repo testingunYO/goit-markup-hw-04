@@ -23,9 +23,6 @@ body {
   padding-right: 15px;
 }
 
-/* .container-main-title {
-  padding: 188px 0;
-} */
 h1,
 h2,
 h3,
@@ -133,11 +130,19 @@ img {
   color: var(--accent-color);
 }
 
-/* main */
+/*--------------- main -------------*/
+
+/* ---------------HERO------------ */
 .class-title {
-  background-color: #2e2f42;
+  background-color: rgb(46, 47, 66);
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero.jpg');
 }
+
 .main-title {
   font-weight: 700;
   font-size: 56px;

@@ -259,6 +259,7 @@ button {
   letter-spacing: 0.02em;
   /* SLATE */
   color: #434455;
+  margin-bottom: 8px;
 }
 /* ------------------SECTION TEAM */
 .section-team {

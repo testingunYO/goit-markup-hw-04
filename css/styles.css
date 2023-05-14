@@ -205,6 +205,16 @@ button {
 .skills-list {
   width: calc((100% - 72px) / 4);
 }
+.skills-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .subtitle {
   font-weight: 700;
   font-size: 36px;

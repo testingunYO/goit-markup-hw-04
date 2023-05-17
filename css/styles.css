@@ -309,6 +309,41 @@ button {
 .teamlinks-icon {
   fill: #f4f4fd;
 }
+
+/* ----------------CUSTOMERS----------- */
+.section-customers {
+  padding: 120px 0;
+}
+
+.subtitle-customers {
+  margin-bottom: 72px;
+}
+.customers {
+  display: flex;
+  gap: 24px;
+}
+.customers-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-link {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+.customers-link:hover,
+.customers-link:focus {
+  color: #404bbf;
+  border-color: #404bbf;
+}
+.customers-icon {
+  fill: currentColor;
+}
 /* footer */
 
 footer {
@@ -317,9 +352,11 @@ footer {
   padding: 100px 0;
   /* display: flex; */
 }
-/* .footer-container {
-  width: 264px;
-} */
+.footer-container {
+  /* width: 264px; */
+  display: flex;
+  align-items: baseline;
+}
 .logo-footer {
   font-weight: 800;
   font-size: 18px;
